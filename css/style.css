@@ -5,3 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#aside-left{
+    max-width: 30%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+  
+.logo{
+    padding: 10%;
+    row-gap: 10%;
+}
+
+#aside-main{
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
