@@ -6,23 +6,57 @@
     box-sizing: border-box;
 }
 
-#aside-left{
-    max-width: 30%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-  
-.logo{
-    padding: 10%;
-    row-gap: 10%;
+main {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-rows: minmax(100%, 100vh);
+}
+#nav-bar {
+    background-color: #090458;
+    color: white;
+}
+#main-content {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+#location-pin{
+    width: 30px;
+    margin-left: 40px;
+}
+
+#logo{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#nav-item{
+}
+
+#name{
+    color: #090458;
 }
 
 #home{
     background-image: url(https://i.postimg.cc/8kfzZ038/melanie-vaz-Ka8-W66-4-YA-unsplash.jpg);
 }
-/* .main-content {
-    width: 100%;
-    position: fixed;
-    right: 0;
-} */
+.nav-link{
+    color: white
+}
+
+.row{
+    color:white;
+
+}
+
+section h2{
+    background-color: #090458;
+}
