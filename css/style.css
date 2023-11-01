@@ -61,6 +61,30 @@ section h2{
     width: 100%;
 }
 
+
+#column1{
+    border-right: #090458 solid 2px;
+    height: 100%;
+    padding-left: 30px;
+}
+
+#column2{
+    height: 100%;
+    
+}
+
+#about{
+    height: 100vh;
+}
+
+#work{
+    padding-bottom: 20px;
+}
+
+#icon{
+    width: 70px;
+    height: 70px;
+
 /*body{
     display: flex;
     align-items: center;
@@ -154,4 +178,5 @@ section h2{
 }
 #slider-span3:target ~.image-slider{
     left:-20%;
+
 }
