@@ -84,7 +84,7 @@ section h2{
 #icon{
     width: 70px;
     height: 70px;
-
+}
 /*body{
     display: flex;
     align-items: center;
@@ -178,5 +178,4 @@ section h2{
 }
 #slider-span3:target ~.image-slider{
     left:-20%;
-
 }
