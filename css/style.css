@@ -259,18 +259,29 @@ section h2{
     max-height: 80%;
 }
 
+/*Skills Page*/
 .skills-content{
     border: #090458 solid 2px;
     height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr;
 }
 #skills{
-    border: red solid 2px;
     height: 100vh;
 }
+#skills h2{
+    color: white;
+    border-bottom: #090458 solid 2px;
+    width: fit-content;
+}
 
+#skills h3, h5{
+    color: white;
+    border-bottom: #090458 solid 2px;
+    width: fit-content;
+}
+
+#skills p{
+    color: white;
+}
 /*Contact Page*/
 .form-lable{
     padding: 20px;
