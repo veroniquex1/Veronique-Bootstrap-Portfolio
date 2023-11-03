@@ -75,6 +75,7 @@ section h2{
 
 #about{
     height: 100vh;
+    background-color: #4d41f7;
 }
 
 #work{
@@ -177,7 +178,7 @@ section h2{
 /*new code*/
 
 #about{
-    height: 100vh;
+    
 }
 #about-h2{
     border-bottom: #090458 solid;
@@ -185,4 +186,13 @@ section h2{
 
 #about-image{
     height: 70%;
+}
+
+/*contact page*/
+#form{
+    
+}
+
+#Contact{
+    background-color: #847ed6;
 }
