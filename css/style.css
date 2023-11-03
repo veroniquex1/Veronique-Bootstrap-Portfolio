@@ -193,21 +193,31 @@ section h2{
 #work-content{
     background-color: #847ed6;
     height: 100vh;
-    border: red solid 2px;
     /* padding-bottom: 20px; */
 }
 
-#work h2{
+#work-row{
+    border-right: #090458 solid 1px;
+    height: 100%;
+}
+
+.card-body{
+    padding: 10px;
+}
+#work-content h4{
     border-bottom: #090458 solid 2px;
     width: fit-content;
     color: white;
 }
+
+#work-content p{
+    color: white;
+}
 .work-row{
-    width: 100%;
-    height: 120vh;
+    height: 100%;
     display: flex;
 }
-
+/*
 .work-card{
     width: 100%;
     height: 200px;
@@ -217,9 +227,9 @@ section h2{
     gap: 2rem;
     padding: 5px;
     color: white;
-}
+}*/
 
-.card-head{
+./*card-head{
     width: 30%;
     display: flex;
     justify-content: center;
@@ -244,7 +254,7 @@ section h2{
 
 .right-edu{
     padding-left: 10px;
-}
+}*/
 
 /*testimonials*/
 
@@ -283,6 +293,7 @@ section h2{
 
 #skills-row{
     height: 100%;
+    
 }
 #skills p{
     color: white;
