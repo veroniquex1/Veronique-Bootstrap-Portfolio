@@ -167,6 +167,7 @@ section h2{
 
 #about-image{
     height: 70%;
+    padding-left: 50px;
 }
 
 /*contact page*/
@@ -253,4 +254,47 @@ section h2{
 #skills{
     border: red solid 2px;
     height: 100vh;
+}
+
+/*Contact Page*/
+.form-lable{
+    padding: 20px;
+    
+}
+#contact h3{
+    border-bottom: #090458 solid 2px;
+    width: fit-content;
+}
+
+#contact{
+    height: 100vh;
+}
+#contact h2{
+    border-bottom: #090458 solid 2px;
+    width: fit-content;
+    color: white;
+}
+
+.socials{
+    padding: 20px;
+}
+
+#contact-content{
+    color: white;
+}
+
+/*Background colors*/
+#skills{
+    background-color: #4d41f7;
+}
+
+#projects{
+    background-color: #847ed6;
+}
+
+#testimonials{
+    background-color: #4d41f7;
+}
+#contact{
+    background-color: #847ed6;
 }
