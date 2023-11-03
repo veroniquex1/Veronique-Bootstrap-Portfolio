@@ -227,3 +227,18 @@ section h2{
 .left-work{
     border-right: 2px solid #090458;
 }
+
+/*testimonials*/
+
+#testimonials{
+    height: 100vh;
+    border: #090458 solid 2px;
+}
+
+.test-content{
+    border: #090458 solid 2px;
+}
+
+#carousel-slide{
+    max-height: 80%;
+}
