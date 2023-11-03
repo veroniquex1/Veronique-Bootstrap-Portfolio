@@ -229,11 +229,17 @@ section h2{
 
 #testimonials{
     height: 100vh;
-    border: #090458 solid 2px;
+
 }
 
-.test-content{
-    border: #090458 solid 2px;
+#testimonials h2{
+    color: white;
+    border-bottom: #090458 solid 2px;
+    width: fit-content;
+}
+
+#testimonials img{
+    width: fit-content
 }
 
 #carousel-slide{
