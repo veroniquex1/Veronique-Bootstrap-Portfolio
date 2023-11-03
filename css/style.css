@@ -242,3 +242,15 @@ section h2{
 #carousel-slide{
     max-height: 80%;
 }
+
+.skills-content{
+    border: #090458 solid 2px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#skills{
+    border: red solid 2px;
+    height: 100vh;
+}
