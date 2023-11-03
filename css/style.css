@@ -61,18 +61,6 @@ section h2{
     width: 100%;
 }
 
-
-#column1{
-    border-right: #090458 solid 2px;
-    height: 70%;
-    padding-left: 30px;
-}
-
-#column2{
-    height: 70%;
-    
-}
-
 #about{
     height: 100vh;
     background-color: #4d41f7;
@@ -87,7 +75,6 @@ section h2{
 .slider{
     width: 100%;
     height: 100%;
-    border: 2px solid black;
 }
 
 .header-proj{
@@ -191,12 +178,52 @@ section h2{
 /*work/education*/
 
 #work{
-    background-color: #847ed6;
+    background-color: #847ed6
     height: 100vh;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 #about-text{
     color: white;
     padding: 25px;
+}
+
+.work-row{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+}
+
+.work-card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #090458
+    gap: 2rem;
+    padding: 5px;
+}
+
+.card-head{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    width: 70%;
+    padding-top: 20px;
+}
+
+
+.left-work,
+.right-edu{
+    width: 50%;
+    height: 100%;    
+}
+
+.left-work{
+    border-right: 2px solid #090458;
 }
