@@ -64,22 +64,18 @@ section h2{
 
 #column1{
     border-right: #090458 solid 2px;
-    height: 100%;
+    height: 70%;
     padding-left: 30px;
 }
 
 #column2{
-    height: 100%;
+    height: 70%;
     
 }
 
 #about{
     height: 100vh;
     background-color: #4d41f7;
-}
-
-#work{
-    padding-bottom: 20px;
 }
 
 #icon{
@@ -177,11 +173,9 @@ section h2{
 
 /*new code*/
 
-#about{
-    
-}
 #about-h2{
     border-bottom: #090458 solid;
+    color: white;
 }
 
 #about-image{
@@ -189,10 +183,20 @@ section h2{
 }
 
 /*contact page*/
-#form{
-    
-}
 
 #Contact{
     background-color: #847ed6;
+}
+
+/*work/education*/
+
+#work{
+    background-color: #847ed6;
+    height: 100vh;
+    padding-bottom: 20px;
+}
+
+#about-text{
+    color: white;
+    padding: 25px;
 }
